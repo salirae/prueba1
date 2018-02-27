@@ -5,6 +5,8 @@
     <%= p.name %>
     <%= p.marca %>
     <%= p.sku %>
+    $<%= p.precio.round(0) %>
+    <br>
 <% end %>
 
 <%= link_to 'Edit', edit_linea_path(@linea) %>
